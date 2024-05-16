@@ -21,7 +21,17 @@ class Seller extends Model
      * @var array<int, string>
      */
     protected $fillable = [
-
+        'name',
+        'username',
+        'email',
+        'password',
+        'picture',
+        'address',
+        'phone',
+        'email_verified_at',
+        'status',
+        'payment_method',
+        'payment_email'
     ];
 
     /**
